@@ -29,10 +29,8 @@
 1. Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
    [Jenkins installed](https://github.com/sash39/DevOps_CI-CD/assets/11473102/32113ae5-3739-4ae8-ac94-45403c6e86c3)
 3. Установите на машину с jenkins golang.[Golang installed](https://github.com/sash39/DevOps_CI-CD/assets/11473102/2cad7ba3-6255-49ca-b26e-7d61b557e8dc)
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. `Заполните здесь этапы выполнения, если требуется ....`
-7. 
+4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build .. (https://github.com/sash39/DevOps_CI-CD/assets/11473102/3ceec8c8-4b4d-44d2-9c7d-9a91c5a41693)
+  (https://github.com/sash39/DevOps_CI-CD/assets/11473102/bc527789-75c1-4348-91e2-5f8bfbdc601d)  (https://github.com/sash39/DevOps_CI-CD/assets/11473102/1afa206e-60c7-4a6b-a757-284301bbc53c)
 
 ```
 Поле для вставки кода...
