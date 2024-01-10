@@ -32,8 +32,6 @@
 4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build .. (https://github.com/sash39/DevOps_CI-CD/assets/11473102/3ceec8c8-4b4d-44d2-9c7d-9a91c5a41693)
   (https://github.com/sash39/DevOps_CI-CD/assets/11473102/bc527789-75c1-4348-91e2-5f8bfbdc601d)  (https://github.com/sash39/DevOps_CI-CD/assets/11473102/1afa206e-60c7-4a6b-a757-284301bbc53c)
 
-```
----
 
 ### Задание 2
 
