@@ -54,7 +54,7 @@
    [raw-hosted](https://github.com/sash39/DevOps_CI-CD/assets/11473102/f56203c4-b6ad-444a-aa7a-75e152725c78)
    
 5. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
-pipeline {
+`pipeline {
   agent any
 
   environment {
@@ -87,7 +87,7 @@ pipeline {
     }
   }
 }
-
+`
 
 7. 
 Загрузите файл в репозиторий с помощью jenkins.
