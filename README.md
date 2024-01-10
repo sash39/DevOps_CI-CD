@@ -54,47 +54,12 @@
    [raw-hosted](https://github.com/sash39/DevOps_CI-CD/assets/11473102/f56203c4-b6ad-444a-aa7a-75e152725c78)
    
 5. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
-`pipeline {
-  agent any
-
-  environment {
-    NEXUS_REPO_URL = 'http://127.0.0.1:8081/repository/raw-hosted/myapp'
-  }
-
-  stages {
-    stage('Git') {
-      steps {
-        git 'https://github.com/netology-code/sdvps-materials.git'
-      }
-    }
-
-    stage('Build Go App') {
-      steps {
-        script {
-          // Сборка Go-приложения
-          sh 'CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -o myapp'
-        }
-      }
-    }
-
-    stage('Upload to Nexus') {
-      steps {
-        script {
-          // Загрузка бинарного файла в Nexus
-          sh "curl -v -u admin:admin --upload-file myapp ${NEXUS_REPO_URL}/myapp"
-        }
-      }
-    }
-  }
-}
-`
-
+[pipeline](https://github.com/sash39/DevOps_CI-CD/assets/11473102/a96aca2e-6eeb-499e-8f49-09057f1a4a83)
+[pipeline2](https://github.com/sash39/DevOps_CI-CD/assets/11473102/03d3f08c-4aca-4a35-8af9-e54c0948de2c)
 7. 
 Загрузите файл в репозиторий с помощью jenkins.
 [go](https://github.com/sash39/DevOps_CI-CD/assets/11473102/6b819e3e-b605-42b3-b9c2-ebe88dbf4f27)
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
 
 ### Задание 4
 
