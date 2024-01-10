@@ -41,7 +41,7 @@
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
 Скриншоты
-[Succeed](https://github.com/sash39/DevOps_CI-CD/assets/11473102/f597beb6-b43f-4baa-8ea8-defe10e1fc8d)
+[Succeed](https://github.com/sash39/DevOps_CI-CD/assets/11473102/f597beb6-b43f-4baa-8ea8-defe10e1fc8d),
 [Configure](https://github.com/sash39/DevOps_CI-CD/assets/11473102/e7da5afb-edd6-4ef2-923f-90bd74a49de3)
 
 
