@@ -33,16 +33,6 @@
   (https://github.com/sash39/DevOps_CI-CD/assets/11473102/bc527789-75c1-4348-91e2-5f8bfbdc601d)  (https://github.com/sash39/DevOps_CI-CD/assets/11473102/1afa206e-60c7-4a6b-a757-284301bbc53c)
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-
-
-
 ---
 
 ### Задание 2
