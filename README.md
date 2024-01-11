@@ -54,11 +54,11 @@
    [raw-hosted](https://github.com/sash39/DevOps_CI-CD/assets/11473102/f56203c4-b6ad-444a-aa7a-75e152725c78)
    
 5. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
-[pipeline](https://github.com/sash39/DevOps_CI-CD/assets/11473102/a96aca2e-6eeb-499e-8f49-09057f1a4a83)
-[pipeline2](https://github.com/sash39/DevOps_CI-CD/assets/11473102/03d3f08c-4aca-4a35-8af9-e54c0948de2c)
+[pipeline](https://github.com/sash39/DevOps_CI-CD/assets/11473102/ec3bc40b-7ff8-4d62-b014-eac2d42dd4ad)
+[pipeline2](https://github.com/sash39/DevOps_CI-CD/assets/11473102/083f44c3-005b-45b2-b1e6-1e36f308a451)
 7. 
 Загрузите файл в репозиторий с помощью jenkins.
-[go](https://github.com/sash39/DevOps_CI-CD/assets/11473102/6b819e3e-b605-42b3-b9c2-ebe88dbf4f27)
+[go](https://github.com/sash39/DevOps_CI-CD/assets/11473102/7d7a0128-80eb-4a69-9c27-8203488beadc)
 
 
 ### Задание 4
