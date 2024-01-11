@@ -71,6 +71,9 @@
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 (https://github.com/sash39/DevOps_CI-CD/assets/11473102/343ef601-0d99-470d-af75-d50000e722e5)
 
+ФАЙЛЫ в NEXUS
+[files](https://github.com/sash39/DevOps_CI-CD/assets/11473102/d8a063ca-56b8-41cc-af93-59b00107d7d5)
+
 
 ```
 pipeline {
@@ -100,7 +103,7 @@ pipeline {
             steps {
                 script {
                     // Загрузка бинарного файла в Nexus с динамическим именем файла
-                    sh "curl -v -u admin:admin --upload-file myapp-v${BUILD_NUMBER} ${NEXUS_REPO_URL}/myapp-v${BUILD_NUMBER}"
+                    sh "curl -v -u admin:admin --upload-file myapp-v${BUILD_NUMBER} ${NEXUS_REPO_URL}myapp-v${BUILD_NUMBER}"
                 }
             }
         }
